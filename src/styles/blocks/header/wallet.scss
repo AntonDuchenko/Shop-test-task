@@ -11,7 +11,6 @@
     width: 100%;
     border-radius: 25px;
     background-color: #0D0B0F;
-
     font-family: "Leksa Sans Pro Bold", sans-serif;
     text-align: center;
     line-height: 20px;
@@ -51,10 +50,9 @@
     min-width: 20px;
     height: 20px;
     margin-left: 10px;
-    background: linear-gradient(rgb(44, 129, 42), rgb(48, 195, 37));
+    background: linear-gradient(#2C812A, #30C325);
     border-radius: 3px;
-    border: solid 1px rgb(33, 204, 20);
-
+    border: solid 1px #21CC14;
     display: flex;
     justify-content: center;
     align-items: center;

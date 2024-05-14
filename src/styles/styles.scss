@@ -1,8 +1,7 @@
-@import "node_modules/scss-reset/_reset";
+@import "node_modules/scss-reset/reset";
 @import "node_modules/normalize-scss/sass/normalize/import-now";
-@import "./utiles/variables.scss";
-@import "./utiles/mixins.scss";
-
+@import "./utiles/variables";
+@import "./utiles/mixins";
 @import "./page";
 @import "./blocks/header/header";
 @import "./blocks/header/wallet";
