@@ -1,0 +1,43 @@
+.tabs {
+
+  &_list {
+    background-color: #181723;
+    margin-bottom: 10px;
+    justify-content: center;
+    display: flex;
+    gap: 1px;
+
+    @include onDesktop {
+      background-color: unset;
+      gap: 10px;
+      max-width: $max-content-width;
+      margin: 10px auto 0;
+    }
+  }
+
+  &_item {
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Leksa Sans Pro Bold", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #9794C6;
+
+    @include onTablet {
+      font-size: 22px;
+    }
+
+    @include onDesktop {
+      margin-bottom: -1px;
+      padding: 0;
+      width: 188px;
+      height: 54px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      background-color: #212031;
+    }
+  }
+}

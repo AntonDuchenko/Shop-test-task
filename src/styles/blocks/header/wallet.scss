@@ -1,0 +1,82 @@
+.wallet {
+  display: flex;
+  position: relative;
+  align-items: center;
+
+  &_value {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-width: 90px;
+    width: 100%;
+    border-radius: 25px;
+    background-color: #0D0B0F;
+
+    font-family: "Leksa Sans Pro Bold", sans-serif;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+
+    @include onTablet {
+      line-height: 28px;
+      font-size: 18px;
+      min-width: 130px;
+    }
+
+    @include onDesktop {
+      line-height: 44px;
+      font-size: 24px;
+      min-width: 180px;
+      padding-inline: 20px;
+    }
+  }
+
+  &_img {
+    position: absolute;
+    left: -12px;
+    width: 30px;
+
+    @include onTablet {
+      width: 50px;
+      left: -20px;
+    }
+
+    @include onDesktop {
+      width: 69px;
+      left: -30px;
+    }
+  }
+
+  &_btn-add {
+    min-width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    background: linear-gradient(rgb(44, 129, 42), rgb(48, 195, 37));
+    border-radius: 3px;
+    border: solid 1px rgb(33, 204, 20);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include onTablet {
+      min-width: 28px;
+      height: 28px;
+      margin-left: 15px;
+    }
+
+    @include onDesktop {
+      width: 25px;
+      min-height: 25px;
+      margin-left: 20px;
+    }
+  }
+
+  &_btn_img {
+    width: 10px;
+
+    @include onTablet {
+      width: 15px;
+    }
+  }
+}

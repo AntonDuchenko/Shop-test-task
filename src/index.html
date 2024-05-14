@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.scss" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <button class="btn header_btn-back">
+        <img
+          src="./images/icons/Back.svg"
+          alt="Back icon"
+          class="header_image-back"
+        />
+      </button>
+
+      <div class="header_wallet">
+        <div class="wallet">
+          <img
+            src="./images/1000coins.png"
+            alt="1000 Coins"
+            class="wallet_img"
+          />
+          <span class="wallet_value">
+            100,5k
+            <button class="wallet_btn-add">
+              <img
+                src="./images/icons/plus.svg"
+                alt="Plus icon"
+                class="wallet_btn_img"
+              />
+            </button>
+          </span>
+        </div>
+
+        <div class="wallet">
+          <img
+            src="./images/500crystals.png"
+            alt="500 Crystals"
+            class="wallet_img"
+          />
+          <span class="wallet_value"
+            >1 253
+            <button class="wallet_btn-add">
+              <img
+                src="./images/icons/plus.svg"
+                alt="Plus icon"
+                class="wallet_btn_img"
+              />
+            </button>
+          </span>
+        </div>
+      </div>
+
+      <button class="btn header_btn-home">
+        <img
+          src="./images/icons/Home.svg"
+          alt="Home icon"
+          class="header_image-home"
+        />
+      </button>
+    </header>
+
+    <main>
+      <ul class="tabs_list">
+        <li class="tabs_item">Монстр боксы</li>
+        <li class="tabs_item">Банк</li>
+        <li class="tabs_item">Наборы</li>
+        <li class="tabs_item">Спецпредложения</li>
+        <li class="tabs_item">Промокод</li>
+      </ul>
+
+      <section class="prices">
+        <ul class="prices_list">
+          <li class="prices_item">
+            <img
+              src="./images/x500-bonus.png"
+              alt="x500 Bonus"
+              class="prices_img-multiply"
+            />
+
+            <div class="prices_content">
+              <img
+                src="./images/100crystals.png"
+                alt="500 Crystals"
+                class="prices_img"
+              />
+              <span class="prices_value">
+                <span class="prices_value_count">x100</span>
+                <span class="prices_value_name">Handful of Coins</span>
+              </span>
+              <button type="button" class="btn prices_btn">
+                Купить
+                <div class="prices_btn-right">
+                  <span class="prices_btn-currency">$</span>
+                  10
+                </div>
+              </button>
+            </div>
+          </li>
+          <li class="prices_item"></li>
+          <li class="prices_item"></li>
+          <li class="prices_item"></li>
+          <li class="prices_item"></li>
+          <li class="prices_item"></li>
+          <li class="prices_item"></li>
+          <li class="prices_item"></li>
+          <li class="prices_item"></li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

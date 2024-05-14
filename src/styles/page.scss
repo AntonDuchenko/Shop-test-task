@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Leksa Sans Pro Bold";
+  src: url("../fonts/LeksaSansPro-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Leksa Sans Pro Extra Bold";
+  src: url("../fonts/LeksaSansPro-ExtraBold.woff2") format("woff2");
+}
+
+body {
+  background-color: #16151F;
+  background-image: url("../images/main-bg.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+
+  font-family: $page-main-font;
+  color: $main-text-color;
+}
