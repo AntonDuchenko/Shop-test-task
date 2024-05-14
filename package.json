@@ -1,7 +1,9 @@
 {
+  "name": "Shop-test-task",
+  "version": "1.0.0",
   "scripts": {
     "start": "parcel src/index.html --open",
-    "build": "npm run lint && parcel build src/index.html",
+    "build": "npm run lint && parcel build src/index.html --public-url ./",
     "lint": "npx stylelint **/*.scss",
     "deploy": "npm run build && gh-pages -d dist"
   },
